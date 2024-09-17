@@ -53,7 +53,7 @@ void CalcularArea()
     Console.WriteLine("Escribe el radio del Circulo:");
     double radio = double.Parse(Console.ReadLine());
     if (radio >= 0) {
-        double area = 3.14 * Math.Sqrt(radio);
+        double area = 3.14 * Math.Pow(radio,2);
         Console.WriteLine($"El area es " + area);
     }
     else
